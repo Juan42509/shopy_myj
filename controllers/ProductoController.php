@@ -3,13 +3,22 @@ require_once 'models/producto.php';
 
 class productoController{
 	
+	public function main(){
+	
+		// renderizar vista
+		// require_once 'views/producto/destacados.php';
+		require_once 'views/layout/homepage.php';
+
+	}
 	public function index(){
 		$producto = new Producto();
 		$productos = $producto->getRandom(6);
 	
 		// renderizar vista
 		require_once 'views/producto/destacados.php';
+
 	}
+	
 	
 	public function ver(){
 		if(isset($_GET['id'])){
