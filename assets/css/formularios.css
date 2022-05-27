@@ -4,14 +4,36 @@
     min-height: 100%;
 }
 
+#registration-form .form-control-pro{
+	width: 90%;
+	padding: 12px 20px;
+	height: auto;
+}
+
+@media screen and (max-width: 700px){
+	#registration-form .image{
+		width: 30%;
+	    background-position: 60%;
+	}
+
+	#registration-form .frmp{
+		width: 70%;
+	}
+
+	#registration-form .form-control-pro{
+		width: 100%;
+	}
+}
+
+
 body{
 	background-color: transparent;
 }
 
 #button-btn
 {
-	width: 100%;
-	margin-top: 120px;
+	width: 90%;
+	margin-top: 50px;
 	color: white;
 }
 
@@ -85,3 +107,62 @@ body{
 	}
 }
 /*Diseño del formulario*/
+
+#registration-form .frmp{
+	float:right;
+	height: 9900px;
+    width: 80%;
+    min-width: 250px;
+    padding: 0 35px;
+    background-size: 100% 100%;
+    background-color: white;
+}
+@media screen and (max-width: 700px){
+	#registration-form .imagep{
+		width: 30%;
+	    background-position: 60%;
+	}
+
+	#registration-form .frmp{
+		width: 70%;
+	}
+
+	#registration-form .form-control{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px){
+	#registration-form .imagep{
+		display: none;
+	}
+
+	#registration-form .frmp{
+		width: 100%;
+	}
+
+	#registration-form h1{
+		text-align: center;
+	}
+
+	#registration-form .btn{
+		width: 500%;
+		margin-top: 20px;
+	}
+}
+#registration-form .imagep{
+	float:left;
+	background-image: url(../img/crearropa2.jpg);
+	height: 900px;
+	width: 20%;
+	background-size: cover;
+	background-position: 25%;
+}
+#registration-form .imager{
+	float:left;
+	background-image: url(../img/Ropa.jpg);
+	height: 500px;
+	width: 50%;
+	background-size: cover;
+	background-position: 25%;
+}

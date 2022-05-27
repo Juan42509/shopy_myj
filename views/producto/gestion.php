@@ -4,7 +4,7 @@
 <h1>Gestión de productos</h1>
 
 
-<a style="color: white;" class="btn btn-success" href="<?=base_url?>producto/crear" role="button">Crear producto</a>
+<a style="color: white;" class="btn btn-warning btn-lg" href="<?=base_url?>producto/crear" role="button">Crear producto</a>
 <!-- <a href="<?=base_url?>producto/crear" class="button button-small">
 	Crear producto
 </a> -->
