@@ -21,7 +21,7 @@
  
     
     <button type="submit" class="btn btn-warning btn-lg" id="button-btn" value="guardar">Crear</button>
-    
+        
 </form>
 <?php include('./views/layout/footer.php'); ?>
 
