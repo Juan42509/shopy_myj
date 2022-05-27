@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Agency - Start Bootstrap Theme</title>
+        <title>Agency - Start Bootstrap Theme</title nd>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="<?=base_url?>assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -51,8 +51,8 @@
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading text-uppercase">Servicios</h2>
+                    <h3 class="section-subheading text-muted">Beneficiones de MYJ.</h3>
                 </div>
                 <div class="row text-center">
                     <div class="col-md-4">
