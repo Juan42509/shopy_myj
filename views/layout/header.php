@@ -34,7 +34,7 @@
             <nav id="menu">
                 <ul>
                     <li>
-                        <a href="<?=base_url?>">Inicio</a>  
+                        <a href="<?=base_url?>producto/index">Inicio</a>  
                     </li>
                     <?php if(isset($_SESSION['admin'])): ?>
                 <li><a href="<?=base_url?>categoria/index">Gestionar categorias</a></li>
