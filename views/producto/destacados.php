@@ -15,8 +15,8 @@
 		</a>
 		<p><?= number_format($product->precio); ?></p>
 		<!-- <a name="" id="" class="btn btn-primary" href="<?=base_url?>carrito/add&id=<?=$product->id?>" role="button">Comprar</a> -->
-		<a name="" id="comprar" class="btn btn-primary" href="#" role="button">Comprar</a>
-		<!-- <a href="<?=base_url?>carrito/add&id=<?=$product->id?>" class="button">Comprar</a> -->
+		<!-- <a name="" id="comprar" class="btn btn-primary" href="#" role="button">Comprar</a> -->
+		<a href="<?=base_url?>carrito/add&id=<?=$product->id?>" class="button">Comprar</a>
 	</div>
 <?php endwhile; ?>
 
